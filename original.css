@@ -1,0 +1,56 @@
+@media screen and (max-width:480px){
+    body{
+        max-width: 100%;
+        
+    }
+    h1 {
+        font-size: 3em; /* Cambia el tamaño según tus preferencias */
+    }
+    main {
+        width:auto;
+        display:block;
+    }
+    .sectionEncrip{
+        position: relative;
+        width: auto;
+        height: auto;
+        top: 30px;
+        border: solid black;
+        margin: 0%;
+    }
+    .sectionDes{
+        width: auto;
+        height:auto;
+        margin-top:3em;
+        border: solid green;
+        position: relative;;
+    }
+    .ingresotexto{
+        width: auto;
+        height:20vh;
+    }
+    .salidatexto{
+        width: 80%;
+        height: 80%;
+        border-radius: 30px;
+        margin-left:1.5em;
+
+        padding: 20px 1px 5px 10px ;
+        font-size: 20px;
+    
+    }
+    .boton1 button{
+        width:auto;
+        color: aliceblue;   
+        font-size: 11px;
+        border-radius: 10px;
+        background-color:rgb(8, 5, 178);
+
+    }
+    .botones2 {
+        width: auto;
+    }
+    .lista-diferenciales, .imagen-diferenciales{
+        width: 100%;
+    }
+}
